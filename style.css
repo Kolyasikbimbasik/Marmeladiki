@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    background-color: pink;
+    margin: 0;
+}
+
+header {
+    background-color: orange;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+p {
+    font-size: 30px; /* Увеличил размер шрифта для всех параграфов */
+    color: black;
+    font-family: cursive;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.hi {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article img {
+    width: 100px;
+    height: 100px;
+}
+
+aside p {
+    font-family: cursive;
+    font-size: 24px; /* Увеличил размер шрифта в aside */
+}
+
+.right {
+    text-align: right;
+}
+
+.text {
+    width: 300px;
+    text-align: left;
+    font-size: 500px; 
+}
+
+.text:hover{
+width: 400px;
+color: blue;
+}
+
+.right:hover{
+color: blue;
+}
+
+.left:hover{
+color: yellowgreen;
+}
+
+p:hover{  
+background-color: chocolate;  
+border-radius: 10px;
+}
